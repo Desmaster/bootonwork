@@ -1,11 +1,13 @@
 Boot on work
 ------------
 
-A simple wrapping script to boot multiple programs only when the time matches your work time frame. I use it to have my work-related applications only start in my working schedule.
+A simple wrapping script to boot multiple programs only when the current time matches your workweek's time frame. I use it to have my work related applications only start in my working schedule.
 
 #### Installation and configuration
 
-It's up to you how you want to install it. In my use case I need to startup some applications like Toggl or Slack. There's an example of a desktop entry, it's what I use to add a startup application to Gnome. 
+It's up to you how you want to install it. To call the program, run the file `bootonwork.sh` from any directory.
+
+In my use case I need to startup some applications like Toggl or Slack. There's an example of a desktop entry, it's what I use to add a startup application to Gnome. 
 
 If the timeframe / working schedule does not fit your needs, you can tweak the script by adding a file called `settings.cfg` in the directory of the repository, for example: 
 
