@@ -1,0 +1,8 @@
+[Desktop Entry]
+Version=1.0
+Type=Application
+Name=Boot on work
+Exec=/path/to/bootonwork/bootonwork.sh
+Comment=Boot work related software in your work week!
+Categories=Development;Office;
+Terminal=false
