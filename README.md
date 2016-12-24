@@ -7,7 +7,16 @@ A simple wrapping script to boot multiple programs only when the current time ma
 
 It's up to you how you want to install it. To call the program, run the file `bootonwork.sh` from any directory.
 
-In my use case I need to startup some applications like Toggl or Slack. There's an example of a desktop entry, it's what I use to add a startup application to Gnome. 
+To define what programs you want to boot, create a file called `boot.sh`. For example:
+
+```
+#!/bin/bash
+
+/home/timon/software/toggldesktop/TogglDesktop.sh %f &
+/usr/bin/scudcloud &
+```
+
+In my use case I need to startup some applications like Toggl or Slack. There's an example of a desktop entry(`bootonwork.desktop.sample`), it's what I use to add a startup application to Gnome. 
 
 #### Configuration
 
