@@ -13,7 +13,9 @@ To define what programs you want to boot, create a file called `boot.sh`. For ex
 #!/bin/bash
 
 /home/timon/software/toggldesktop/TogglDesktop.sh %f &
-/usr/bin/scudcloud &
+/usr/bin/scudcloud --minimized=True &
+
+notify-send "Booted work-related applications"
 ```
 
 In my use case I need to startup some applications like Toggl or Slack. There's an example of a desktop entry(`bootonwork.desktop.sample`), it's what I use to add a startup application to Gnome. 
